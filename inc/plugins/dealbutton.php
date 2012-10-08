@@ -13,9 +13,9 @@ function dealbutton_info()
     return array(
         "name"            => "Dealbutton",
         "description"    => "Dealbutton in Handelsforen",
-        "website"        => "",
+        "website"        => "http://jonesboard.tk/",
         "author"        => "Jones",
-        "authorsite"    => "http://mybbdemo.tk/",
+        "authorsite"    => "http://jonesboard.tk/",
         "version"        => "1.4",
         "guid"             => "",
         "compatibility" => "16*"
