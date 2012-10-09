@@ -41,7 +41,7 @@ function dealbutton_install()
         "optionscode" => "text",
         "value" => "0",
         "disporder" => "1",
-        "gid" => intval($gid),
+        "gid" => (int)$gid,
         );
     $db->insert_query("settings", $setting);
     
@@ -51,7 +51,7 @@ function dealbutton_install()
         "optionscode" => "text",
         "value" => "0",
         "disporder" => "2",
-        "gid" => intval($gid),
+        "gid" => (int)$gid,
         );
     $db->insert_query("settings", $setting);
     
@@ -62,7 +62,7 @@ function dealbutton_install()
         "optionscode" => "text",
         "value" => "{creator} -> {answer}-RE: {subject}",
         "disporder" => "3",
-        "gid" => intval($gid),
+        "gid" => (int)$gid,
         );
     $db->insert_query("settings", $setting);
 
@@ -73,7 +73,7 @@ function dealbutton_install()
         "optionscode" => "textarea",
         "value" => "Themenersteller",
         "disporder" => "4",
-        "gid" => intval($gid),
+        "gid" => (int)$gid,
         );
     $db->insert_query("settings", $setting);
 
@@ -83,7 +83,7 @@ function dealbutton_install()
         "optionscode" => "textarea",
         "value" => "Antworter",
         "disporder" => "5",
-        "gid" => intval($gid),
+        "gid" => (int)$gid,
         );
     $db->insert_query("settings", $setting);
 
@@ -94,7 +94,7 @@ function dealbutton_install()
         "optionscode" => "yesno",
         "value" => "no",
         "disporder" => "6",
-        "gid" => intval($gid),
+        "gid" => (int)$gid,
         );
     $db->insert_query("settings", $setting);
     rebuild_settings();
